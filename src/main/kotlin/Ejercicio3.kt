@@ -35,7 +35,7 @@ fun main() {
     //El siguiente paso simplemenente es iterar o recorrer las opciones para poder verifica que esta bien
     //tu propuesta de modelo
     println(p1.titulo)
-    p1.opciones.forEach{
+    opciones.forEach{
         println(" ${it.titulo}")
     }
 
