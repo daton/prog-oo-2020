@@ -43,6 +43,6 @@ class Autenticacion{
     }
 }
 
-class MiExcepcion(error:String):Exception(error){
+class MiExcepcion(mensajito:String):Exception(mensajito){
 
 }
