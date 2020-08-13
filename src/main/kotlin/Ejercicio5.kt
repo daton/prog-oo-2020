@@ -13,7 +13,7 @@ fun main(){
     var validar=ValidacionIMC()
     try{
 
-        validar.validarImc(yo.imc)
+        validar.validarImc(yo.imc!!)
         //Si se jecuta este renglon todo esta bien
         println("Estas muy bien de peso, felicidades!!!, el covid te pela los dientes!")
 
@@ -32,7 +32,7 @@ class Persona{
 
     public fun calcularImc(){
         //hacemos el calculo
-        imc=peso/(altura*altura)
+        imc=peso!!/(altura!!*altura!!)
 
     }
 
